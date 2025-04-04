@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Information Form</title>
+</head>
+<body>
+  <h2>Basic Information Form</h2>
+  <form action="#" method="post">
+    <!-- Name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Mobile No -->
+    <label for="mobile">Mobile No:</label>
+    <input type="tel" id="mobile" name="mobile" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Education Done -->
+    <label>Education Done:</label><br>
+    <input type="checkbox" id="highschool" name="education" value="High School">
+    <label for="highschool">High School</label><br>
+    <input type="checkbox" id="bachelor" name="education" value="Bachelor's">
+    <label for="bachelor">Bachelor's</label><br>
+    <input type="checkbox" id="master" name="education" value="Master's">
+    <label for="master">Master's</label><br><br>
+
+    <!-- Tea Preference -->
+    <label for="tea">Do you like tea?</label>
+    <select id="tea" name="tea">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="sometimes">Sometimes</option>
+    </select><br><br>
+
+    <!-- Buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
